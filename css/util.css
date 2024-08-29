@@ -1,0 +1,29 @@
+.m-auto {
+    margin: auto;
+}
+
+.m1-size {
+    width: 80vw;
+}
+
+.m2-size {
+    width: 60vw;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+.my-2{
+    margin-top: 12px;
+}
+.margin-bot{
+    margin-bottom: 20px;
+}

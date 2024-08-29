@@ -1,0 +1,38 @@
+.contact {
+    /* height: 74vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    background-color: #ff78000f;
+    border-radius: 12px;
+}
+
+.contact::after {
+    z-index: -1;
+    content: "";
+    background-image: url('/image/bgimage3.jpg');
+    position: absolute;
+    width: 99%;
+    height: inherit;
+    opacity: 0.15;
+}
+
+p input,
+textarea {
+    width: 50vw;
+    height: 5vh;
+    margin-top: 10px;
+    padding: 4px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+    font-family: var(--font2);
+    font-size: 15px;
+}
+
+p textarea {
+    height: 15vw;
+}
+.contact h3{
+    font-size: 20px;
+}
